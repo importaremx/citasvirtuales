@@ -5,8 +5,11 @@ Easily manage appointments and bookings using the google Calendar and Google Mee
 ##Requirements
 
 * This plugin requires the following plugins:
-	* Rainlab.Users to manage the staff
+	* Clake.Userextended to manage the clients and staff timezone
+	***This plugin uses the timezone feature from Clake.Userextended***
+
 	* Offline.Cashier to manage the payments
+	***If the cashier plugin is not proper configured, this plugin may present errors during payment process***
 
 ```
 This plugin uses the Google Api library, already embebed
@@ -55,6 +58,32 @@ __You can download it from Google Console when you create your Google Applicatio
 
 ##Components
 
-### Staff widget
+### Staff list
 
-*
+***IT shows a widget with all your staff filtered by categories***
+
+Use the following code to add the component to a page:
+
+```
+{% component 'ListadoMedicos' %}
+```
+
+### Appointments list
+
+***IT shows a table with all the client's booked appointments***
+
+Use the following code to add the component to a page:
+
+```
+{% component 'ListadoCitas' %}
+```
+
+### Payments list
+
+***IT shows a table with all the client's made payments***
+
+Use the following code to add the component to a page:
+
+```
+{% component 'ListadoPagos' %}
+```
