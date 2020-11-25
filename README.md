@@ -64,9 +64,7 @@ __You can download it from Google Console when you create your Google Applicatio
 
 Use the following code to add the component to a page:
 
-```
-{% component 'ListadoMedicos' %}
-```
+> \{% component 'ListadoMedicos' %\}
 
 ### Appointments list
 
@@ -74,9 +72,7 @@ Use the following code to add the component to a page:
 
 Use the following code to add the component to a page:
 
-```
-{% component 'ListadoCitas' %}
-```
+> \{% component 'ListadoCitas' %\}
 
 ### Payments list
 
@@ -84,6 +80,4 @@ Use the following code to add the component to a page:
 
 Use the following code to add the component to a page:
 
-```
-{% component 'ListadoPagos' %}
-```
+> \{% component 'ListadoPagos' %\}
